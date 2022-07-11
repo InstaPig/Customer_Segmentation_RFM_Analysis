@@ -1,5 +1,10 @@
 # Customer Segmentation using RFM Analysis
-This workbook illustrate the RFM analysis for customer segmentation on online retail data. 
+Customer segmentation is simply dividing the target market into smaller groups that have similar attributes or characteristics. This gives a business more ammunition to know clients at a more intimate level, thus able to offer much-needed competitive advantage in exploring new markets and products. 
+
+It is also a given that Customer Experience will most likely improve because the understanding of customer needs and preferences affords you a better chance of serving clients better in comparison to an entity that is clueless about their client’s attributes. 
+
+But how can we use a data-driven approach to do the customer segmentation for a business? This workbook will illustrate the RFM analysis for customer segmentation on online retail data to help you better understand everything beneath. 
+
 
 <p align="center">
   <img width="600"  src="Plot/pie-segment-760.jpg">
@@ -16,6 +21,8 @@ This workbook illustrate the RFM analysis for customer segmentation on online re
 
 ## Business Scenario <a name="case"></a>
 Let's assume we are running a e-commerce company, and we would love to segment our customers. So that we can propose our pricing strategy for each group based on our findings on the customer segmentation.
+
+In this case, we will be using a set of transactional-level data, to extract the features based on clients' order history and perform further analysis.
 
 The data is available at: https://archive.ics.uci.edu/ml/datasets/Online+Retail+II
 
