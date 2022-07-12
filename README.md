@@ -42,14 +42,14 @@ This Online Retail II data set contains all the transactions occurring for a UK-
 
 ## Data Processing <a name="data_processing"></a>
 The data we have is a one-year records of transactions, with the following attributes:
-- InvoiceNo: Invoice number
-- StockCode: Product code
-- Description: Product name
-- Quantity: The quantities of each product per transaction
-- InvoiceDate: Invoice date and time
-- UnitPrice: Unit price
-- CustomerID: Customer number
-- Country: Country name
+- **InvoiceNo**: Invoice number
+- **StockCode**: Product code
+- **Description**: Product name
+- **Quantity**: The quantities of each product per transaction
+- **InvoiceDate**: Invoice date and time
+- **UnitPrice**: Unit price
+- **CustomerID**: Customer number
+- **Country**: Country name
 
 To process it into a useable format, we will need to follow the following steps:
 - Remove records about cancelled orders
