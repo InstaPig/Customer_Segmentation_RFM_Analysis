@@ -1,14 +1,26 @@
 # Customer Segmentation using RFM Analysis
+## Overview
 Customer segmentation is simply dividing the target market into smaller groups that have similar attributes or characteristics. This gives a business more ammunition to know clients at a more intimate level, thus able to offer much-needed competitive advantage in exploring new markets and products. 
 
 It is also a given that Customer Experience will most likely improve because the understanding of customer needs and preferences affords you a better chance of serving clients better in comparison to an entity that is clueless about their client’s attributes. 
 
-But how can we use a data-driven approach to do the customer segmentation for a business? This workbook will illustrate the RFM analysis for customer segmentation on online retail data to help you better understand everything beneath. 
+But how can we use a data-driven approach to do the customer segmentation for a business? This workbook will illustrate the **RFM analysis** for customer segmentation on online retail data to help you better understand everything beneath. 
 
 
 <p align="center">
   <img width="600"  src="Plot/pie-segment-760.jpg">
 </p>
+
+## What is RFM Analysis?
+RFM analysis is a marketing technique used to quantitatively rank and group customers based on the **Recency**, **Frequency** and **Monetary** total of their recent transactions to identify the best customers and perform targeted marketing campaign. Each of these metrics represents customer trait.
+
+- **Recency**: The time been since customer's last purchase
+- **Frequency**: The total number of orders placed by the same customer
+- **Monetary**: The aggregated monetary volume of a client's historical purchase
+
+With the above metrics defined, we can assign scores to the customers to represent their trait. As an example, a customer who purchased one day ago will recieve a Recency score of 5, while someone who's last order is from one year before woule be assigned a score of 1. Now, with transactional-level value converted to RFM scores, it increases the comparability across each class. Thus, we can use the combination of customers' R, F, M rankings to implement the segmentaions.
+
+In the following part, we will be seeing how exactly the RFM analysis are conducted based on transactional-level data.
 
 ## Table of Content
 1. [Business Scenario](#case)
