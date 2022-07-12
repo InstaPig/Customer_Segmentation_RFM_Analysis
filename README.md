@@ -41,6 +41,26 @@ The data is available at: https://archive.ics.uci.edu/ml/datasets/Online+Retail+
 This Online Retail II data set contains all the transactions occurring for a UK-based and registered, non-store online retail between 01/12/2010 and 09/12/2011. The company mainly sells unique all-occasion gift-ware. Many customers of the company are wholesalers.
 
 ## Data Processing <a name="data_processing"></a>
+The data we have is a one-year records of transactions, with the following attributes:
+- InvoiceNo: Invoice number
+- StockCode: Product code
+- Description: Product name
+- Quantity: The quantities of each product per transaction
+- InvoiceDate: Invoice date and time
+- UnitPrice: Unit price
+- CustomerID: Customer number
+- Country: Country name
+
+To process it into a useable format, we will need to follow the following steps:
+- Remove records about cancelled orders
+- Remove records that has no CustomerID
+- Pivot the data at the level of Customer: 
+  - Group by CustomerID
+  - Find the latest purchase day (Recency) 
+  - Total number of orders placed (Frequency) 
+  - Total volume of purchase (Monetary)
+
+Now, we will have all three features regarding R,F,M for each individual customers, and we are ready to convert these features to scores based on their rankings within each category.
 
 ## RFM Metric Calculation <a name="metric"></a>
 
