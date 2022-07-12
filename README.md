@@ -63,6 +63,16 @@ To process it into a useable format, we will need to follow the following steps:
 Now, we will have all three features regarding R,F,M for each individual customers, and we are ready to convert these features to scores based on their rankings within each category.
 
 ## RFM Metric Calculation <a name="metric"></a>
+The plot below shows the histogram of the original RFM features, and we can see the frequency and monetary parts are quite dispersed. Therefore, calculating the R, F, M scores will increase the overall comparability.
+
+<p align="center">
+  <img width="600"  src="Plot/RFM_Raw.png">
+</p>
+
+By sorting the 3 R, F, M attributes in order, we can assign the score based on their ranking. As an example, for the top 20% of the customer that have the highest purchase amount, we can assign them a score of 5, the following 20% will receive 4 as their score and so forth.
+
+After calculating the RFM scores for each customer, we will then be able to compare their purchasing behavior, implement the segmentation and design pricing/marketing strategy for each group of customers.
+
 
 ## Customer Segmentation <a name="cs"></a>
 
