@@ -75,7 +75,25 @@ After calculating the RFM scores for each customer, we will then be able to comp
 
 
 ## Customer Segmentation <a name="cs"></a>
+By looking at their associated R,F,M scores, we can then classify them into different segments. Here are some examples of the segmentation:
+
+- **Champions**: Those who place orders most recently, most frequently, and have tracked record of high volume in spending. Businesses can provide loyalty reward to this group. They can become early adopters for new products.
+- **Potential Loyalists**: Recent customers with moderate frequency and amount of spending. Offer loyalty program or customized recommendation for them to upsell products and convert them into loyal members.
+- **New Customers**: Customers who just purchase once recently. Design marketing strategy to increase their visits and retain this group.
+- **At Risk**: Clients who has tracked records of orders and spending, but inactive recently. Offer customized reactivation campaigns to reconnect, and offer renewals to encourage purchase.
+
 
 ## Data Visualization and Analysis <a name="ana"></a>
+<p align="center">
+  <img width="600"  src="Plot/Segments_Count.png">
+</p>
+First, let's take a look at the amount of customers within each segements. The amount of clients within the class **Hibernating** dominates. Since the company is an e-commerce retailer who sell seasonal souvenirs, this group are those who purchase mostly during holidays. On the other hand, we have also seen a big portions in the following groups: **Champions**, **Loyal Customers** and **Potential Loyalists**. A big part of them might be wholesalers who has more demands than individual buyers.
+
+<p align="center">
+  <img width="600"  src="Plot/Segments_M.png">
+</p>
+
+If we look at the above plot, where the size of each pie idicates the average spending within each segments, we can be more confident that most of the customers in **Champions**, **Loyal Customers** and **Potential Loyalists** groups are wholesalers, as the volume of spending are much higher than the remaining classes. For this group of clients, we can try to build long-term collaboration with them by agreeing on special offers that leads to "Win-Win" for both parties. Besides, we can also see a great spending amount from the **Can't Lose** group, though they may not purchase as often as others do, they spend a lot each time they place an order, therefore, it is worth building relationship with this group retain their seasonal purchases.
 
 ## Conclusion <a name="conclusion"></a>
+Customer segemtation grants business the lens to analyse its customer base more comprehensively. With a better understanding of the composition of the business's customer, stakeholders can make more precise decisions on designing different marketing campaigns to target different groups of customers.
