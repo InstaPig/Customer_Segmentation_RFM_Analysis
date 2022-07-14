@@ -20,6 +20,12 @@ RFM analysis is a marketing technique used to quantitatively rank and group cust
 
 With the above metrics defined, we can assign scores to the customers to represent their trait. As an example, a customer who purchased one day ago will recieve a Recency score of 5, while someone who's last order is from one year before woule be assigned a score of 1. Now, with transactional-level value converted to RFM scores, it increases the comparability across each class. Thus, we can use the combination of customers' R, F, M rankings to implement the segmentaions.
 
+## Technology and Capabilities:
+- Python
+- Data Processing using Pandas libray
+- Data Visualization
+- Customer Segemtation, Customer Strategy
+
 In the following part, we will be seeing how exactly the RFM analysis are conducted based on transactional-level data.
 
 ## Table of Content
