@@ -22,9 +22,9 @@ With the above metrics defined, we can assign scores to the customers to represe
 
 ## Technology and Capabilities:
 - Python
-- Data Processing using Pandas libray
+- Data Processing using Pandas library
 - Data Visualization
-- Customer Segemtation, Customer Strategy
+- Customer Segemtation, Customer Strategy, Customer Value Proposition
 
 In the following part, we will be seeing how exactly the RFM analysis are conducted based on transactional-level data.
 
